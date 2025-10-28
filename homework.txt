@@ -89,6 +89,8 @@
 0.0.0.0 ris.api.iris.microsoft.com
 0.0.0.0 clubhub-public.xboxlive.com
 0.0.0.0 res.public.onecdn.static.microsoft
+0.0.0.0 xgrant.xboxlive.com
+0.0.0.0 profile.gamepass.com
 
 # GAMING PLATFORMS - EPIC GAMES
 0.0.0.0 epicgames.com
