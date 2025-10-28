@@ -2,110 +2,147 @@
 # Social Media, Gaming Platforms, and Distracting Sites
 # Last Updated: October 2025
 # For use with Pi-hole
-# Format: Adblock (||domain.com^ blocks domain and all subdomains)
 
 # SOCIAL MEDIA PLATFORMS
-||facebook.com^
-||m.facebook.com^
-||instagram.com^
-||tiktok.com^
-||reddit.com^
-||twitter.com^
-||x.com^
-||snapchat.com^
-||discord.com^
-||telegram.org^
-||telegram.me^
-||youtube.com^
-||youtu.be^
-||twitch.tv^
-||pinterest.com^
-||linkedin.com^
-||tumblr.com^
-||nextdoor.com^
+0.0.0.0 facebook.com
+0.0.0.0 www.facebook.com
+0.0.0.0 m.facebook.com
+0.0.0.0 instagram.com
+0.0.0.0 www.instagram.com
+0.0.0.0 tiktok.com
+0.0.0.0 www.tiktok.com
+0.0.0.0 reddit.com
+0.0.0.0 www.reddit.com
+0.0.0.0 twitter.com
+0.0.0.0 www.twitter.com
+0.0.0.0 x.com
+0.0.0.0 www.x.com
+0.0.0.0 snapchat.com
+0.0.0.0 www.snapchat.com
+0.0.0.0 discord.com
+0.0.0.0 www.discord.com
+0.0.0.0 telegram.org
+0.0.0.0 www.telegram.org
+0.0.0.0 telegram.me
+0.0.0.0 youtube.com
+0.0.0.0 www.youtube.com
+0.0.0.0 m.youtube.com
+0.0.0.0 youtu.be
+0.0.0.0 twitch.tv
+0.0.0.0 www.twitch.tv
+0.0.0.0 pinterest.com
+0.0.0.0 www.pinterest.com
+0.0.0.0 linkedin.com
+0.0.0.0 www.linkedin.com
+0.0.0.0 tumblr.com
+0.0.0.0 www.tumblr.com
+0.0.0.0 nextdoor.com
+0.0.0.0 www.nextdoor.com
 
 # GAMING PLATFORMS - STEAM
-||steampowered.com^
-||cdn.fastly.steamstatic^
-||shared.fastly.steamstatic.com^
-||store.steampowered.com^
-||api.steampowered.com^
-||ipv6check-http.steamserver.net^
-||ipv6check-udp.steamserver.net^
-||steamcommunity.com^
+0.0.0.0 steampowered.com
+0.0.0.0 www.steampowered.com
+0.0.0.0 store.steampowered.com
+0.0.0.0 api.steampowered.com
+0.0.0.0 cdn.fastly.steamstatic.com
+0.0.0.0 shared.fastly.steamstatic.com
+0.0.0.0 ipv6check-http.steamserver.net
+0.0.0.0 ipv6check-udp.steamserver.net
+0.0.0.0 steamcommunity.com
+0.0.0.0 www.steamcommunity.com
 
 # GAMING PLATFORMS - XBOX & MICROSOFT GAMING
-||xbox.com^
-||aks-prod-northeurope.access-point.cloudmessaging.edge.microsoft.com^
-||mucp.api.account.microsoft.com^
-||browser.events.data.microsoft.com^
-||achievements.xboxlive.com^
-||uks.core.gssv-play-prod.xboxlive.com^
-||store-images.s-microsoft.com^
-||streaming.xboxlive.com^
-||notificationinbox.xboxlive.com^
-||dlassets-ssl.xboxlive.com^
-||xblmessaging.xboxlive.com^
-||xhome.gssv-play-prod.xboxlive.com^
-||xgpupcapp.gssv-play-prod.xboxlive.com^
-||privacy.xboxlive.com^
-||titlehub.xboxlive.com^
-||res.public.onecdn.static.microsoft^
-||rta.xboxlive.com^
-||chat.xboxlive.com^
-||nav-edge.smartscreen.microsoft.com^
-||gamingai.exp.xboxservices.com^
-||peoplehub.xboxlive.com^
-||gamingcontext.xboxlive.com^
-||inbox.assist.gameservices.xboxlive.com^
-||contentaccess.exp.xboxservices.com^
-||assets.msn.com^
-||edge.microsoft.com^
-||xccs.xboxlive.com^
-||arc.msn.com^
-||login.live.com^
-||purchase.mp.microsoft.com^
+0.0.0.0 xbox.com
+0.0.0.0 www.xbox.com
+0.0.0.0 aks-prod-northeurope.access-point.cloudmessaging.edge.microsoft.com
+0.0.0.0 mucp.api.account.microsoft.com
+0.0.0.0 browser.events.data.microsoft.com
+0.0.0.0 achievements.xboxlive.com
+0.0.0.0 uks.core.gssv-play-prod.xboxlive.com
+0.0.0.0 store-images.s-microsoft.com
+0.0.0.0 streaming.xboxlive.com
+0.0.0.0 notificationinbox.xboxlive.com
+0.0.0.0 dlassets-ssl.xboxlive.com
+0.0.0.0 xblmessaging.xboxlive.com
+0.0.0.0 xhome.gssv-play-prod.xboxlive.com
+0.0.0.0 xgpupcapp.gssv-play-prod.xboxlive.com
+0.0.0.0 privacy.xboxlive.com
+0.0.0.0 titlehub.xboxlive.com
+0.0.0.0 res.public.onecdn.static.microsoft.com
+0.0.0.0 rta.xboxlive.com
+0.0.0.0 chat.xboxlive.com
+0.0.0.0 nav-edge.smartscreen.microsoft.com
+0.0.0.0 gamingai.exp.xboxservices.com
+0.0.0.0 peoplehub.xboxlive.com
+0.0.0.0 gamingcontext.xboxlive.com
+0.0.0.0 inbox.assist.gameservices.xboxlive.com
+0.0.0.0 contentaccess.exp.xboxservices.com
+0.0.0.0 assets.msn.com
+0.0.0.0 edge.microsoft.com
+0.0.0.0 xccs.xboxlive.com
+0.0.0.0 arc.msn.com
+0.0.0.0 purchase.mp.microsoft.com
+0.0.0.0 access-point.cloudmessaging.edge.microsoft.com
 
 # GAMING PLATFORMS - EPIC GAMES
-||epicgames.com^
-||store.epicgames.com^
+0.0.0.0 epicgames.com
+0.0.0.0 www.epicgames.com
+0.0.0.0 store.epicgames.com
 
 # GAMING PLATFORMS - GOG
-||gog.com^
+0.0.0.0 gog.com
+0.0.0.0 www.gog.com
 
 # GAMING PLATFORMS - EA
-||ea.com^
-||origin.com^
+0.0.0.0 ea.com
+0.0.0.0 www.ea.com
+0.0.0.0 origin.com
+0.0.0.0 www.origin.com
 
 # GAMING PLATFORMS - UBISOFT
-||ubisoft.com^
-||uplay.ubisoft.com^
-||store.ubisoft.com^
+0.0.0.0 ubisoft.com
+0.0.0.0 www.ubisoft.com
+0.0.0.0 uplay.ubisoft.com
+0.0.0.0 store.ubisoft.com
 
 # GAMING PLATFORMS - BLIZZARD
-||blizzard.com^
-||battle.net^
+0.0.0.0 blizzard.com
+0.0.0.0 www.blizzard.com
+0.0.0.0 battle.net
+0.0.0.0 www.battle.net
 
 # GAMING PLATFORMS - ROCKSTAR
-||rockstargames.com^
+0.0.0.0 rockstargames.com
+0.0.0.0 www.rockstargames.com
 
 # GAMING PLATFORMS - NVIDIA (GEFORCE NOW)
-||nvidia.com^
-||nvidia-game-works.com^
+0.0.0.0 nvidia.com
+0.0.0.0 www.nvidia.com
+0.0.0.0 nvidia-game-works.com
 
 # GAMING PLATFORMS - ITCH.IO
-||itch.io^
+0.0.0.0 itch.io
+0.0.0.0 www.itch.io
 
 # GAMING PLATFORMS - CONSOLE
-||playstation.com^
-||nintendo.com^
-||sega.com^
+0.0.0.0 playstation.com
+0.0.0.0 www.playstation.com
+0.0.0.0 nintendo.com
+0.0.0.0 www.nintendo.com
+0.0.0.0 sega.com
+0.0.0.0 www.sega.com
 
 # ENTERTAINMENT & STREAMING (NON-EDUCATIONAL)
-||netflix.com^
-||hulu.com^
-||disneyplus.com^
-||primevideo.com^
-||hbomax.com^
+0.0.0.0 netflix.com
+0.0.0.0 www.netflix.com
+0.0.0.0 hulu.com
+0.0.0.0 www.hulu.com
+0.0.0.0 disneyplus.com
+0.0.0.0 www.disneyplus.com
+0.0.0.0 primevideo.com
+0.0.0.0 www.primevideo.com
+0.0.0.0 hbomax.com
+0.0.0.0 www.hbomax.com
 
 # NOTE: YouTube is blocked above but consider removing if homework requires it
+# If your son needs YouTube for research, remove the YouTube entries above
