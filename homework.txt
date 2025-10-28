@@ -41,7 +41,13 @@
 
 # GAMING PLATFORMS
 0.0.0.0 steampowered.com
+0.0.0.0 cdn.fastly.steamstatic
+0.0.0.0 shared.fastly.steamstatic.com
+0.0.0.0 store.steampowered.com
+0.0.0.0	api.steampowered.com
 0.0.0.0 www.steampowered.com
+0.0.0.0 ipv6check-http.steamserver.net
+0.0.0.0 ipv6check-udp.steamserver.net
 0.0.0.0 steamcommunity.com
 0.0.0.0 www.steamcommunity.com
 0.0.0.0 xbox.com
