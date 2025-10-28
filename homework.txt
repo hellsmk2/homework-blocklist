@@ -97,6 +97,14 @@
 0.0.0.0 xflight.xboxlive.com
 0.0.0.0 xkms.xboxlive.com
 0.0.0.0 xsts.auth.xboxlive.com
+0.0.0.0 cms-assets.xboxservices.com
+0.0.0.0 sisu.xboxlive.com
+0.0.0.0 login.live.com
+0.0.0.0 images-eds-ssl.xboxlive.com
+0.0.0.0 userstats.xboxlive.com
+0.0.0.0 updatepc.xboxlive.com
+0.0.0.0 userpresence.xboxlive.com
+0.0.0.0 graph.microsoft.com
 
 # GAMING PLATFORMS - EPIC GAMES
 0.0.0.0 epicgames.com
