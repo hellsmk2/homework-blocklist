@@ -83,6 +83,12 @@
 0.0.0.0 arc.msn.com
 0.0.0.0 purchase.mp.microsoft.com
 0.0.0.0 access-point.cloudmessaging.edge.microsoft.com
+0.0.0.0 eplists.xboxlive.com
+0.0.0.0 oneocsp.microsoft.com
+0.0.0.0 afd-lppc-prod-aqenfwdddybqcpb7.b02.azurefd.net
+0.0.0.0 ris.api.iris.microsoft.com
+0.0.0.0 clubhub-public.xboxlive.com
+0.0.0.0 res.public.onecdn.static.microsoft
 
 # GAMING PLATFORMS - EPIC GAMES
 0.0.0.0 epicgames.com
