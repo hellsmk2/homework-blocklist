@@ -109,6 +109,9 @@
 0.0.0.0 www.bing.com
 0.0.0.0 prod.rewardsplatform.microsoft.com
 0.0.0.0 www.msn.com
+0.0.0.0 title.mgt.xboxlive.com
+0.0.0.0 user.auth.xboxlive.com
+0.0.0.0 device.auth.xboxlive.com
 
 # GAMING PLATFORMS - EPIC GAMES
 0.0.0.0 epicgames.com
