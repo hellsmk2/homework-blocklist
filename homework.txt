@@ -63,6 +63,7 @@
 ||edge.microsoft.com^
 ||xccs.xboxlive.com^
 ||arc.msn.com^
+||login.live.com^
 ||purchase.mp.microsoft.com^
 
 # GAMING PLATFORMS - EPIC GAMES
