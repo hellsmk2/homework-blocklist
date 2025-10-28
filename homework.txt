@@ -105,6 +105,10 @@
 0.0.0.0 updatepc.xboxlive.com
 0.0.0.0 userpresence.xboxlive.com
 0.0.0.0 graph.microsoft.com
+0.0.0.0 edge-consumer-static.azureedge.net
+0.0.0.0 www.bing.com
+0.0.0.0 prod.rewardsplatform.microsoft.com
+0.0.0.0 www.msn.com
 
 # GAMING PLATFORMS - EPIC GAMES
 0.0.0.0 epicgames.com
