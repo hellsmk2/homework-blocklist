@@ -78,6 +78,9 @@
 0.0.0.0	contentaccess.exp.xboxservices.com
 0.0.0.0	assets.msn.com
 0.0.0.0	edge.microsoft.com
+0.0.0.0 xccs.xboxlive.com
+0.0.0.0 arc.msn.com
+0.0.0.0 purchase.mp.microsoft.com
 0.0.0.0 epicgames.com
 0.0.0.0 www.epicgames.com
 0.0.0.0 store.epicgames.com
