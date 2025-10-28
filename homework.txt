@@ -91,6 +91,11 @@
 0.0.0.0 res.public.onecdn.static.microsoft
 0.0.0.0 xgrant.xboxlive.com
 0.0.0.0 profile.gamepass.com
+0.0.0.0 arc.msn.com
+0.0.0.0 arc.msn.com
+0.0.0.0 arc.msn.com
+0.0.0.0 arc.msn.com
+0.0.0.0 arc.msn.com
 
 # GAMING PLATFORMS - EPIC GAMES
 0.0.0.0 epicgames.com
