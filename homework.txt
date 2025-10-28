@@ -95,7 +95,7 @@
 0.0.0.0 arc.msn.com
 0.0.0.0 arc.msn.com
 0.0.0.0 arc.msn.com
-0.0.0.0 arc.msn.com
+0.0.0.0 test.msn.com
 
 # GAMING PLATFORMS - EPIC GAMES
 0.0.0.0 epicgames.com
