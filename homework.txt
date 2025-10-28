@@ -50,6 +50,8 @@
 0.0.0.0 ipv6check-udp.steamserver.net
 0.0.0.0 steamcommunity.com
 0.0.0.0 www.steamcommunity.com
+0.0.0.0 p2p-lhr1.discovery.steamserver.net
+0.0.0.0 client-update.fastly.steamstatic.com
 
 # GAMING PLATFORMS - XBOX & MICROSOFT GAMING
 0.0.0.0 xbox.com
@@ -112,6 +114,7 @@
 0.0.0.0 title.mgt.xboxlive.com
 0.0.0.0 user.auth.xboxlive.com
 0.0.0.0 device.auth.xboxlive.com
+0.0.0.0 catalog.gamepass.com
 
 # GAMING PLATFORMS - EPIC GAMES
 0.0.0.0 epicgames.com
